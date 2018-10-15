@@ -22,7 +22,7 @@ batchsize: 256
 
 learning rate: 0.1->divided by 10 when error plateaus
 
-iteration: 60 * 10 ^4 epoches
+iteration: 60 * 10 ^4 iteration
 
 weight decay: 0.0001
 
