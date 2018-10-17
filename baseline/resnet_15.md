@@ -45,12 +45,13 @@ testing: 10-crop testing, fully-convolutional form, average the score at multipl
 
 ## Pros and cons
 
-To be added
+The essence of this method is to add some flexibility into the layer. for deeper layer, it can choose the weight of preceding layer output and current layer output because when network is deeper, we can't tell which layer contribute less, so we add preceding layer output to learn to flexibly choose the layer.
 
 ## How to improve this method?
 
-* Dense net
+* give more flexibility. Not for one preceding layer but n preceding layers having a shortcut connection to it. 
 * To be added
+
 
 
 
