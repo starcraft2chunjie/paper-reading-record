@@ -18,7 +18,7 @@ To achieve this, creating a architecture that combines low-resolution, semantica
 
 ![](/images/FPN1_2.png)
 
-![](/images/FPN1_3.png)
+![](/images/FPN1_5.png)
 
 For lateral connections, the 1 * 1 conv for reducing the dimension and use the nearest neighbour upsampling for simplicity.
 
@@ -51,7 +51,7 @@ For FPN, we design the design(3 * 3 conv and two sibling 1 * 1 conv) to each lev
 ### Used for Fast R-CNN
 
 Assign RoIs of different scales to the pyramid levels.
-1[](/images/FPN1_4.png)
+![](/images/FPN1_4.png)
 
 ## What we can do to improve this method?
 
